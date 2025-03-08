@@ -5,3 +5,10 @@ merge_protections:
       - base = main
     success_conditions:
       - schedule = Mon-Fri 09:00-17:00[America/Chicago]
+priority_rules:
+  - name: Majidrazaee2
+    priority: medium
+    conditions:
+      - and:
+          - base = main
+    allow_checks_interruption: false
